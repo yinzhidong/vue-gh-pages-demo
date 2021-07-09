@@ -10,7 +10,7 @@ steps:
 - name: release
   image: node:13
   environment:
-    NODE_ENV: production
+    NODE_ENV: gh-pages
   commands:
   - yarn install
   - yarn build
