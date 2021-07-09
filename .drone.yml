@@ -24,4 +24,5 @@ steps:
     password:
       from_secret: password
     pages_directory: dist
-    target_directory: 2020
+    # target_directory: 2020
+    target_directory: docs
